@@ -17,7 +17,7 @@
 
 - type: replace
   path: /instance_groups/name=uaa/jobs/name=uaa/properties/bpm?/enabled?
-  value: true
+  value: false
 
 - type: replace
   path: /instance_groups/name=diego-cell/jobs/name=route_emitter/properties/bpm?/enabled?
